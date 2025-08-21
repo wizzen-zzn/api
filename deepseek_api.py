@@ -29,18 +29,7 @@ class DeepSeekAPI:
         ]
 
     def generate_response(self, prompt, model="deepseek-chat", temperature=0.7, max_tokens=1024):
-        """
-        调用DeepSeek API生成响应
-        
-        参数:
-            prompt: 用户输入的提示词
-            model: 要使用的模型名称
-            temperature: 生成温度，0-1之间，值越高结果越随机
-            max_tokens: 最大生成token数
-            
-        返回:
-            生成的响应文本
-        """
+       
         # 检查模型是否支持
         if model not in self.supported_models:
             raise ValueError(f"不支持的模型: {model}，支持的模型有: {self.supported_models}")
