@@ -7,9 +7,9 @@ import cv2
 import numpy as np
 
 # 请替换为你的实际信息
-API_KEY = "sk-055d40c2b3564227bbf44535a9e10f9d"  # 从阿里云控制台获取
+API_KEY = ""  # 从阿里云控制台获取
 API_ENDPOINT = "https://dashscope.aliyuncs.com/compatible-mode/v1"
-IMAGE_PATH = r"C:\Users\15588885562\Desktop\daolu\road_debris.jpg"
+IMAGE_PATH = r""
 
 # 英文提示词
 DETECTION_PROMPT = """
