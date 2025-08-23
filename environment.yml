@@ -1,0 +1,16 @@
+name: python313-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pip>=24.0
+  # 在此处添加conda管理的依赖包
+  # 例如:
+  # - numpy>=1.26.0
+  # - pandas>=2.1.0
+  - pip:
+    # 在此处添加需要通过pip安装的依赖包
+    # 例如:
+    # - requests>=2.32.0
+    # - python-dotenv>=1.0.0
